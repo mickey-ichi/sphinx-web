@@ -205,6 +205,13 @@ header #logo {
 	margin-top: -10px;
 }
 
+@media (max-width: 991px) {
+	#company .card-information {
+		position: inherit !important;
+		top: 0 !important;
+		width: auto !important;
+	}
+}
 /*色付きタイプのコンテンツ
 ---------------------------------------------------------------------------*/
 .contents.bg1 {
