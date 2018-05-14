@@ -212,6 +212,47 @@ header #logo {
 		width: auto !important;
 	}
 }
+
+.company-container {
+	display: flex;
+}
+
+.company-left {
+	width: 250px;
+	padding-right: 15px;
+	padding-top: 15px;
+}
+
+.company-left-profile-2 {
+	width: 220px;
+	padding: 15px;
+}
+
+.company-right {
+	flex: 1;
+}
+
+@media (max-width: 768px) {
+	.company-container {
+		flex-direction: column;
+	}
+
+	.company-right {
+		padding-top: 15px;
+	}
+
+	.company-left, .company-left-profile-2 {
+		width: 100%;
+	}
+
+	.company-left-profile-2 {
+		padding: 0;
+	}
+
+	header #logo img {
+		padding-right: 40px;
+	}
+}
 /*色付きタイプのコンテンツ
 ---------------------------------------------------------------------------*/
 .contents.bg1 {
